@@ -1,0 +1,29 @@
+/* Auteur: Samuel Dubé
+*/
+
+
+
+.container{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    background: gray;
+}
+
+.block{
+    color: white;
+    text-align: center;
+    font-size: 1.5em;
+    height: 100px;
+    
+}
+
+.block1{background: orange; flex-basis: 100%;}
+.block2{background: red; flex-basis: 12.5%;}
+.block3{background: blue; flex-basis: 75%;}
+.block4{background: green; flex-basis: 12.5%;}
+.block5{background: teal;}
+.block6{background: cyan;}
+.block7{background: purple;}
+.block8{background: pink;}
+.block9{background: yellow;}
